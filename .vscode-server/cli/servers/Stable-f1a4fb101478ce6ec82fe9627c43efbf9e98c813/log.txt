@@ -1,0 +1,22 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-f6ce5f08-b994-4fb5-b0e5-aa1e6e518d78
+Extension host agent listening on /tmp/code-f6ce5f08-b994-4fb5-b0e5-aa1e6e518d78
+
+[17:23:05] 
+
+
+
+
+[17:23:09] Extension host agent started.
+[17:23:09] [<unknown>][911a9f61][ExtensionHostConnection] New connection established.
+[17:23:09] [<unknown>][b029d657][ManagementConnection] New connection established.
+[17:23:09] [<unknown>][911a9f61][ExtensionHostConnection] <1832> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[17:28:09] New EH opened, aborting shutdown
+[17:58:19] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

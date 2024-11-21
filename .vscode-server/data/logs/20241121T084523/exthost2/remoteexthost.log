@@ -1,0 +1,23 @@
+2024-11-21 10:05:18.096 [info] Extension host with pid 21637 started
+2024-11-21 10:05:18.105 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock': Lock acquired.
+2024-11-21 10:05:19.682 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-21 10:05:19.684 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-21 10:05:19.685 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-21 10:05:19.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-21 10:05:20.492 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-21 10:05:20.493 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-21 10:05:20.963 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 10:05:20.964 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 10:05:21.341 [info] Eager extensions activated
+2024-11-21 10:05:21.342 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 10:05:21.342 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 12:00:18.447 [error] Error: Unknown system error -116: Unknown system error -116, open '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1242:14)
+	at async ly (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:6082)
+	at async file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5089
+2024-11-21 12:00:18.448 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock': The lock was lost unexpectedly.
+2024-11-21 12:00:18.448 [error] Error: Unknown system error -116: Unknown system error -116, utime '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2024-11-21 12:00:18.448 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock': Could not update mtime.

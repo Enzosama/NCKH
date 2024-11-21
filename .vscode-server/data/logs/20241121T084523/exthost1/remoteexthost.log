@@ -1,0 +1,121 @@
+2024-11-21 08:45:32.394 [info] Extension host with pid 2064 started
+2024-11-21 08:45:32.408 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock': Lock acquired.
+2024-11-21 08:45:32.797 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-21 08:45:32.799 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-21 08:45:32.802 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-11-21 08:45:32.802 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-21 08:45:33.410 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-21 08:45:33.411 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-21 08:45:33.889 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 08:45:33.889 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-11-21 08:45:34.305 [info] Eager extensions activated
+2024-11-21 08:45:34.305 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 08:45:34.306 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 09:22:49.431 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-11-21 09:22:49.432 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-11-21 09:22:50.431 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-11-21 10:04:30.019 [info] Extension host terminating: received terminate message from renderer
+2024-11-21 10:04:30.020 [info] Lock '/teamspace/studios/this_studio/.vscode-server/data/User/workspaceStorage/ad9b3126db99e6aed8d1842568fb72de/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-21 10:04:30.047 [error] Canceled: Canceled
+	at new tT (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:961845)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:983333)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at _z.eb (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at _z.$ (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at _z.terminate (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at xC.terminate (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at mh.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13245)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Fm.A (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at mh.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:10993)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at j5.acceptChunk (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7226
+	at Socket.t (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15451)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-11-21 10:04:30.048 [error] Canceled: Canceled
+	at new tT (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/github/dist/extension.js:2:328633)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/github/dist/extension.js:2:329592
+	at mh.value (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1073936)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:983333)
+	at /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at _z.eb (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at _z.$ (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at _z.terminate (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at xC.terminate (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15084)
+	at mh.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13245)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Fm.A (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at mh.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:10993)
+	at P.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at j5.acceptChunk (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7226
+	at Socket.t (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15451)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-11-21 10:04:30.051 [info] Extension host with pid 2064 exiting with code 0

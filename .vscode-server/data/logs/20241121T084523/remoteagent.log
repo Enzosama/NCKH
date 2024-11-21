@@ -1,0 +1,49 @@
+2024-11-21 08:45:27.123 [info] 
+
+
+
+
+2024-11-21 08:45:27.371 [info] Extension host agent started.
+2024-11-21 08:45:27.885 [info] [<unknown>][183dcb66][ManagementConnection] New connection established.
+2024-11-21 08:45:27.886 [info] [<unknown>][203e6f6f][ExtensionHostConnection] New connection established.
+2024-11-21 08:45:27.986 [info] [<unknown>][203e6f6f][ExtensionHostConnection] <2064> Launched Extension Host Process.
+2024-11-21 08:45:34.214 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-21 08:45:34.216 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-21 08:50:27.373 [info] New EH opened, aborting shutdown
+2024-11-21 10:04:30.012 [info] [<unknown>][183dcb66][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-21 10:04:30.072 [info] [<unknown>][203e6f6f][ExtensionHostConnection] <2064> Extension Host Process exited with code: 0, signal: null.
+2024-11-21 10:04:30.073 [info] Last EH closed, waiting before shutting down
+2024-11-21 10:05:14.906 [info] [<unknown>][3a0babeb][ManagementConnection] New connection established.
+2024-11-21 10:05:14.908 [info] [<unknown>][20037198][ExtensionHostConnection] New connection established.
+2024-11-21 10:05:14.911 [info] [<unknown>][20037198][ExtensionHostConnection] <21637> Launched Extension Host Process.
+2024-11-21 10:09:30.074 [info] New EH opened, aborting shutdown
+2024-11-21 10:09:30.077 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-11-21 11:49:31.897 [info] [<unknown>][3a0babeb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

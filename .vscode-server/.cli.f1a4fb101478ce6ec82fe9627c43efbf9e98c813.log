@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:50491
+[2024-11-21 17:23:04] info Disposed of connection to running server.
+looking for token 438ae144-d804-4353-bb54-a99901ce414c, got Some("438ae144-d804-4353-bb54-a99901ce414c")
+[2024-11-21 17:23:04] info Checking /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/log.txt and /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/pid.txt for a running server...
+[2024-11-21 17:23:04] info Starting server...
+[2024-11-21 17:23:05] info Server started

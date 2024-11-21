@@ -1,0 +1,399 @@
+2024-11-21 16:29:45.212 [info] [main] Log level: Info
+2024-11-21 16:29:45.212 [info] [main] Validating found git in: "git"
+2024-11-21 16:29:45.212 [info] [main] Using git "2.42.0" from "git"
+2024-11-21 16:29:45.212 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-21 16:29:45.212 [info] > git rev-parse --show-toplevel [44ms]
+2024-11-21 16:29:45.212 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.213 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-21 16:29:45.222 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-11-21 16:29:45.234 [info] [Model][openRepository] Opened repository: /teamspace/studios/this_studio/rag-chat-with-pdf
+2024-11-21 16:29:45.242 [info] > git config --get commit.template [3ms]
+2024-11-21 16:29:45.250 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-21 16:29:45.250 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-21 16:29:45.261 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:29:45.263 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-21 16:29:45.263 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.268 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-21 16:29:45.268 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.269 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-11-21 16:29:45.283 [info] > git status -z -uall [10ms]
+2024-11-21 16:29:45.284 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-21 16:29:45.284 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.288 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-21 16:29:45.288 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.296 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-21 16:29:45.296 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.300 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2024-11-21 16:29:45.316 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-21 16:29:45.316 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-21 16:29:45.324 [info] > git config --get commit.template [9ms]
+2024-11-21 16:29:45.326 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-11-21 16:29:45.331 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-21 16:29:45.331 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 16:29:45.334 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-21 16:29:45.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-11-21 16:29:45.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [17ms]
+2024-11-21 16:29:45.367 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:29:45.367 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-11-21 16:29:45.373 [info] > git fetch [139ms]
+2024-11-21 16:29:45.377 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-11-21 16:29:45.384 [info] > git config --get commit.template [8ms]
+2024-11-21 16:29:45.384 [info] > git diff --name-status -z --diff-filter=ADMR 4e62f3e149745dd2bc79ba5f2d382898fc020ffd...refs/remotes/origin/main [11ms]
+2024-11-21 16:29:45.390 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-11-21 16:29:45.397 [info] > git diff --name-status -z --diff-filter=ADMR 4e62f3e149745dd2bc79ba5f2d382898fc020ffd...refs/remotes/origin/main [5ms]
+2024-11-21 16:29:45.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-21 16:29:45.404 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:29:45.407 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:29:45.417 [info] > git status -z -uall [7ms]
+2024-11-21 16:29:45.424 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2024-11-21 16:29:47.276 [info] > git show --textconv :app.py [11ms]
+2024-11-21 16:29:47.282 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [14ms]
+2024-11-21 16:29:47.299 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [13ms]
+2024-11-21 16:29:47.403 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-21 16:32:45.506 [info] > git fetch [74ms]
+2024-11-21 16:32:45.514 [info] > git config --get commit.template [4ms]
+2024-11-21 16:32:45.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:32:45.520 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:32:45.522 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:32:45.530 [info] > git status -z -uall [6ms]
+2024-11-21 16:32:45.532 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:32:46.830 [info] > git config --get commit.template [9ms]
+2024-11-21 16:32:46.841 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-21 16:32:46.844 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:32:46.849 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-21 16:32:46.858 [info] > git status -z -uall [5ms]
+2024-11-21 16:32:46.869 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-21 16:32:47.208 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 16:32:47.218 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [7ms]
+2024-11-21 16:32:47.511 [info] > git show --textconv :app.py [5ms]
+2024-11-21 16:35:45.615 [info] > git fetch [77ms]
+2024-11-21 16:35:45.622 [info] > git config --get commit.template [2ms]
+2024-11-21 16:35:45.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:35:45.627 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:35:45.629 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:35:45.635 [info] > git status -z -uall [4ms]
+2024-11-21 16:35:45.639 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 16:35:46.932 [info] > git config --get commit.template [4ms]
+2024-11-21 16:35:46.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-21 16:35:46.941 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:35:46.944 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:35:46.951 [info] > git status -z -uall [5ms]
+2024-11-21 16:35:46.954 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:35:47.284 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 16:35:47.290 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [4ms]
+2024-11-21 16:35:47.586 [info] > git show --textconv :app.py [4ms]
+2024-11-21 16:38:45.719 [info] > git fetch [75ms]
+2024-11-21 16:38:45.726 [info] > git config --get commit.template [2ms]
+2024-11-21 16:38:45.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:38:45.731 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:38:45.733 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:38:45.739 [info] > git status -z -uall [3ms]
+2024-11-21 16:38:45.742 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:38:47.039 [info] > git config --get commit.template [5ms]
+2024-11-21 16:38:47.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:38:47.045 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:38:47.047 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:38:47.053 [info] > git status -z -uall [4ms]
+2024-11-21 16:38:47.056 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:38:47.392 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 16:38:47.397 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 16:38:47.695 [info] > git show --textconv :app.py [4ms]
+2024-11-21 16:41:45.833 [info] > git fetch [84ms]
+2024-11-21 16:41:45.844 [info] > git config --get commit.template [4ms]
+2024-11-21 16:41:45.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-21 16:41:45.853 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:41:45.856 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:41:45.865 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 16:41:45.868 [info] > git status -z -uall [10ms]
+2024-11-21 16:41:47.179 [info] > git config --get commit.template [2ms]
+2024-11-21 16:41:47.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:41:47.185 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:41:47.187 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:41:47.194 [info] > git status -z -uall [5ms]
+2024-11-21 16:41:47.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:41:47.553 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [2ms]
+2024-11-21 16:41:47.559 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 16:41:47.826 [info] > git show --textconv :app.py [3ms]
+2024-11-21 16:44:45.958 [info] > git fetch [85ms]
+2024-11-21 16:44:45.967 [info] > git config --get commit.template [4ms]
+2024-11-21 16:44:45.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:44:45.975 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:44:45.981 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-11-21 16:44:45.991 [info] > git status -z -uall [6ms]
+2024-11-21 16:44:46.000 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-11-21 16:44:47.275 [info] > git config --get commit.template [4ms]
+2024-11-21 16:44:47.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:44:47.282 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:44:47.284 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:44:47.290 [info] > git status -z -uall [3ms]
+2024-11-21 16:44:47.299 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-21 16:44:47.634 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [5ms]
+2024-11-21 16:44:47.644 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 16:44:47.938 [info] > git show --textconv :app.py [3ms]
+2024-11-21 16:47:46.077 [info] > git fetch [71ms]
+2024-11-21 16:47:46.084 [info] > git config --get commit.template [3ms]
+2024-11-21 16:47:46.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:47:46.090 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:47:46.092 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:47:46.097 [info] > git status -z -uall [3ms]
+2024-11-21 16:47:46.100 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:47:47.401 [info] > git config --get commit.template [2ms]
+2024-11-21 16:47:47.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:47:47.406 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:47:47.409 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:47:47.414 [info] > git status -z -uall [3ms]
+2024-11-21 16:47:47.417 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 16:47:47.760 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 16:47:47.768 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [5ms]
+2024-11-21 16:47:48.067 [info] > git show --textconv :app.py [6ms]
+2024-11-21 16:50:46.176 [info] > git fetch [70ms]
+2024-11-21 16:50:46.182 [info] > git config --get commit.template [3ms]
+2024-11-21 16:50:46.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:50:46.187 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:50:46.189 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:50:46.195 [info] > git status -z -uall [4ms]
+2024-11-21 16:50:46.197 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 16:50:47.516 [info] > git config --get commit.template [3ms]
+2024-11-21 16:50:47.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:50:47.522 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:50:47.525 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:50:47.531 [info] > git status -z -uall [4ms]
+2024-11-21 16:50:47.533 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 16:50:47.875 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 16:50:47.882 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [4ms]
+2024-11-21 16:50:48.195 [info] > git show --textconv :app.py [5ms]
+2024-11-21 16:53:46.281 [info] > git fetch [79ms]
+2024-11-21 16:53:46.288 [info] > git config --get commit.template [4ms]
+2024-11-21 16:53:46.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-21 16:53:46.291 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:53:46.293 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:53:46.299 [info] > git status -z -uall [4ms]
+2024-11-21 16:53:46.301 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:53:47.612 [info] > git config --get commit.template [4ms]
+2024-11-21 16:53:47.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-21 16:53:47.618 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:53:47.621 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 16:53:47.628 [info] > git status -z -uall [5ms]
+2024-11-21 16:53:47.635 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-21 16:53:47.971 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [2ms]
+2024-11-21 16:53:47.976 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 16:53:48.277 [info] > git show --textconv :app.py [4ms]
+2024-11-21 16:56:46.382 [info] > git fetch [74ms]
+2024-11-21 16:56:46.390 [info] > git config --get commit.template [3ms]
+2024-11-21 16:56:46.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-21 16:56:46.395 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:56:46.397 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:56:46.402 [info] > git status -z -uall [3ms]
+2024-11-21 16:56:46.404 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-21 16:56:47.706 [info] > git config --get commit.template [3ms]
+2024-11-21 16:56:47.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:56:47.712 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:56:47.714 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:56:47.720 [info] > git status -z -uall [3ms]
+2024-11-21 16:56:47.724 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:56:48.097 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [2ms]
+2024-11-21 16:56:48.102 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 16:56:48.365 [info] > git show --textconv :app.py [3ms]
+2024-11-21 16:59:46.494 [info] > git fetch [84ms]
+2024-11-21 16:59:46.501 [info] > git config --get commit.template [3ms]
+2024-11-21 16:59:46.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-21 16:59:46.509 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:59:46.512 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:59:46.520 [info] > git status -z -uall [6ms]
+2024-11-21 16:59:46.522 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-21 16:59:47.805 [info] > git config --get commit.template [2ms]
+2024-11-21 16:59:47.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 16:59:47.812 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 16:59:47.814 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 16:59:47.820 [info] > git status -z -uall [4ms]
+2024-11-21 16:59:47.823 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 16:59:48.163 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [2ms]
+2024-11-21 16:59:48.171 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [5ms]
+2024-11-21 16:59:48.468 [info] > git show --textconv :app.py [5ms]
+2024-11-21 17:02:46.618 [info] > git fetch [88ms]
+2024-11-21 17:02:46.630 [info] > git config --get commit.template [3ms]
+2024-11-21 17:02:46.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:02:46.638 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:02:46.641 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:02:46.652 [info] > git status -z -uall [8ms]
+2024-11-21 17:02:46.653 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-21 17:02:47.942 [info] > git config --get commit.template [11ms]
+2024-11-21 17:02:47.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-21 17:02:47.950 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:02:47.954 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-21 17:02:47.962 [info] > git status -z -uall [4ms]
+2024-11-21 17:02:47.964 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 17:02:48.297 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [4ms]
+2024-11-21 17:02:48.305 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [6ms]
+2024-11-21 17:02:48.608 [info] > git show --textconv :app.py [8ms]
+2024-11-21 17:03:06.907 [info] > git config --get commit.template [3ms]
+2024-11-21 17:03:06.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-11-21 17:03:06.931 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:03:06.935 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-21 17:03:06.944 [info] > git status -z -uall [6ms]
+2024-11-21 17:03:06.947 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:03:07.828 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-21 17:04:31.507 [info] > git config --get commit.template [4ms]
+2024-11-21 17:04:31.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-21 17:04:31.519 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:04:31.524 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-11-21 17:04:31.530 [info] > git status -z -uall [4ms]
+2024-11-21 17:04:31.533 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 17:04:36.982 [info] > git config --get commit.template [4ms]
+2024-11-21 17:04:36.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-21 17:04:36.990 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:04:36.993 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:04:37.004 [info] > git status -z -uall [8ms]
+2024-11-21 17:04:37.027 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2024-11-21 17:04:41.323 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-21 17:04:41.324 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:04:45.406 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 17:04:45.427 [info] > git show --textconv :app.py [26ms]
+2024-11-21 17:04:45.429 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [20ms]
+2024-11-21 17:06:01.275 [info] > git fetch [91ms]
+2024-11-21 17:06:01.285 [info] > git config --get commit.template [6ms]
+2024-11-21 17:06:01.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-21 17:06:01.295 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:06:01.297 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:06:01.305 [info] > git status -z -uall [6ms]
+2024-11-21 17:06:01.306 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:06:02.670 [info] > git config --get commit.template [4ms]
+2024-11-21 17:06:02.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:06:02.676 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:06:02.678 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 17:06:02.686 [info] > git status -z -uall [6ms]
+2024-11-21 17:06:02.687 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:06:03.092 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [2ms]
+2024-11-21 17:06:03.099 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [4ms]
+2024-11-21 17:06:03.365 [info] > git show --textconv :app.py [3ms]
+2024-11-21 17:07:21.725 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-21 17:07:21.726 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:07:24.443 [info] > git show --textconv :app.py [3ms]
+2024-11-21 17:07:24.445 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 17:07:24.449 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [2ms]
+2024-11-21 17:07:29.083 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-21 17:07:29.084 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:08:01.660 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-21 17:08:01.661 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:08:03.551 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-21 17:08:03.551 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:08:23.100 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-21 17:08:23.101 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:09:01.397 [info] > git fetch [77ms]
+2024-11-21 17:09:01.403 [info] > git config --get commit.template [3ms]
+2024-11-21 17:09:01.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:09:01.408 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:09:01.410 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 17:09:01.415 [info] > git status -z -uall [4ms]
+2024-11-21 17:09:01.419 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 17:09:02.787 [info] > git config --get commit.template [3ms]
+2024-11-21 17:09:02.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-21 17:09:02.795 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:09:02.798 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:09:02.807 [info] > git status -z -uall [6ms]
+2024-11-21 17:09:02.808 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:10:29.291 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-21 17:10:29.291 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:11:58.864 [info] > git show --textconv :app.py [12ms]
+2024-11-21 17:11:58.868 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [7ms]
+2024-11-21 17:11:58.873 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [3ms]
+2024-11-21 17:11:59.173 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-21 17:11:59.173 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:12:01.539 [info] > git fetch [115ms]
+2024-11-21 17:12:01.547 [info] > git config --get commit.template [5ms]
+2024-11-21 17:12:01.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-11-21 17:12:01.562 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:12:01.565 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:12:01.576 [info] > git status -z -uall [8ms]
+2024-11-21 17:12:01.584 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-21 17:12:02.863 [info] > git config --get commit.template [6ms]
+2024-11-21 17:12:02.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-21 17:12:02.867 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:12:02.870 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:12:02.879 [info] > git status -z -uall [7ms]
+2024-11-21 17:12:02.882 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-21 17:13:31.448 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [14ms]
+2024-11-21 17:13:31.461 [info] > git show --textconv :app.py [30ms]
+2024-11-21 17:13:31.468 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [9ms]
+2024-11-21 17:13:32.065 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-21 17:13:32.065 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:15:18.408 [info] > git fetch [113ms]
+2024-11-21 17:15:18.423 [info] > git config --get commit.template [8ms]
+2024-11-21 17:15:18.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-21 17:15:18.431 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:15:18.434 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:15:18.441 [info] > git status -z -uall [4ms]
+2024-11-21 17:15:18.446 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-21 17:15:19.790 [info] > git config --get commit.template [3ms]
+2024-11-21 17:15:19.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:15:19.796 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:15:19.799 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:15:19.807 [info] > git status -z -uall [6ms]
+2024-11-21 17:15:19.811 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:15:45.801 [info] > git show --textconv :app.py [8ms]
+2024-11-21 17:15:45.803 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [7ms]
+2024-11-21 17:15:45.810 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [5ms]
+2024-11-21 17:16:25.028 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-21 17:16:25.029 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:16:28.307 [info] > git show --textconv :app.py [7ms]
+2024-11-21 17:16:28.307 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [4ms]
+2024-11-21 17:16:28.318 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [7ms]
+2024-11-21 17:18:18.559 [info] > git fetch [101ms]
+2024-11-21 17:18:18.573 [info] > git config --get commit.template [6ms]
+2024-11-21 17:18:18.575 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-21 17:18:18.580 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:18:18.582 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 17:18:18.594 [info] > git status -z -uall [8ms]
+2024-11-21 17:18:18.598 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:18:19.956 [info] > git config --get commit.template [4ms]
+2024-11-21 17:18:19.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-21 17:18:19.963 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:18:19.968 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-21 17:18:19.978 [info] > git status -z -uall [8ms]
+2024-11-21 17:18:19.981 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-21 17:18:20.335 [info] > git ls-files --stage -- /teamspace/studios/this_studio/rag-chat-with-pdf/app.py [3ms]
+2024-11-21 17:18:20.345 [info] > git cat-file -s 8f5905d4a086795f009986efae608babe9017b1d [4ms]
+2024-11-21 17:18:20.661 [info] > git show --textconv :app.py [5ms]
+2024-11-21 17:18:48.201 [info] > git config --get commit.template [5ms]
+2024-11-21 17:18:48.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:18:48.207 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:18:48.210 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-21 17:18:48.216 [info] > git status -z -uall [4ms]
+2024-11-21 17:18:48.219 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-21 17:19:01.649 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-21 17:19:01.650 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-21 17:21:18.670 [info] > git fetch [67ms]
+2024-11-21 17:21:18.677 [info] > git config --get commit.template [4ms]
+2024-11-21 17:21:18.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-21 17:21:18.682 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:21:18.683 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-21 17:21:18.689 [info] > git status -z -uall [4ms]
+2024-11-21 17:21:18.692 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-21 17:21:20.072 [info] > git config --get commit.template [6ms]
+2024-11-21 17:21:20.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-11-21 17:21:20.089 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/teamspace/studios/this_studio/rag-chat-with-pdf/.git/refs/remotes/origin/main'
+2024-11-21 17:21:20.093 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-21 17:21:20.118 [info] > git status -z -uall [22ms]
+2024-11-21 17:21:20.127 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]

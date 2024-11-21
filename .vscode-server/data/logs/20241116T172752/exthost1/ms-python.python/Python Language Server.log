@@ -1,0 +1,84 @@
+2024-11-16 17:30:54.218 [info] [Info  - 5:30:54 PM] (5293) Server root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-16 17:30:54.219 [info] [Info  - 5:30:54 PM] (5293) Pylance language server 2024.11.2 (pyright version 1.1.386, commit 4180fa21) starting
+2024-11-16 17:30:54.219 [info] [Info  - 5:30:54 PM] (5293) Starting service instance "this_studio"
+2024-11-16 17:30:54.254 [info] [Info  - 5:30:54 PM] (5293) Setting environmentName for service "this_studio": "3.10.10 (cloudspace conda)"
+2024-11-16 17:30:54.255 [info] [Info  - 5:30:54 PM] (5293) Setting pythonPath for service "this_studio": "/home/zeus/miniconda3/envs/cloudspace/bin/python"
+2024-11-16 17:30:54.255 [info] [Info  - 5:30:54 PM] (5293) No include entries specified; assuming /teamspace/studios/this_studio
+2024-11-16 17:30:54.256 [info] [Info  - 5:30:54 PM] (5293) Auto-excluding **/node_modules
+2024-11-16 17:30:54.256 [info] [Info  - 5:30:54 PM] (5293) Auto-excluding **/__pycache__
+2024-11-16 17:30:54.256 [info] [Info  - 5:30:54 PM] (5293) Auto-excluding **/.*
+2024-11-16 17:30:54.278 [info] [Info  - 5:30:54 PM] (5293) Assuming Python version 3.10.10.final.0
+2024-11-16 17:30:54.363 [info] [Info  - 5:30:54 PM] (5293) Found 1 source file
+2024-11-16 17:30:54.899 [info] [Info  - 5:30:54 PM] (5293) Background analysis(1) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-16 17:30:54.900 [info] [Info  - 5:30:54 PM] (5293) Background analysis(1) started
+2024-11-16 17:30:54.987 [info] [Info  - 5:30:54 PM] (5293) Indexer background runner(2) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (index)
+2024-11-16 17:30:55.045 [info] [Info  - 5:30:55 PM] (5293) Indexing(2) started
+2024-11-16 17:30:55.769 [info] [Info  - 5:30:55 PM] (5293) scanned(2) 359 files over 1 exec env
+2024-11-16 17:30:59.868 [info] [Info  - 5:30:59 PM] (5293) [IDX(2)] Long operation: index execution environment file:///teamspace/studios/this_studio (3875ms)
+2024-11-16 17:30:59.896 [info] [Info  - 5:30:59 PM] (5293) [IDX(2)] Long operation: index packages file:///teamspace/studios/this_studio (3910ms)
+2024-11-16 17:30:59.896 [info] [Info  - 5:30:59 PM] (5293) indexed(2) 359 files over 1 exec env
+2024-11-16 17:30:59.996 [info] [Info  - 5:30:59 PM] (5293) Indexing finished(2).
+2024-11-16 17:31:04.520 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2024-11-16 17:31:04.521 [info] (Client) Pylance async client (2024.11.2) started with python extension (2024.20.0)
+2024-11-16 17:39:34.519 [info] [Info  - 5:39:34 PM] (5293) Indexer background runner(3) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (refresh)
+2024-11-16 17:39:34.521 [info] [Info  - 5:39:34 PM] (5293) Indexing(3) started
+2024-11-16 17:39:35.249 [info] [Info  - 5:39:35 PM] (5293) scanned(3) 371 files over 1 exec env
+2024-11-16 17:39:36.228 [info] [Info  - 5:39:36 PM] (5293) indexed(3) 371 files over 1 exec env
+2024-11-16 17:39:36.319 [info] [Info  - 5:39:36 PM] (5293) Indexing finished(3).
+2024-11-16 17:42:10.524 [info] [Info  - 5:42:10 PM] (5293) Indexer background runner(4) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (refresh)
+2024-11-16 17:42:10.526 [info] [Info  - 5:42:10 PM] (5293) Indexing(4) started
+2024-11-16 17:42:11.289 [info] [Info  - 5:42:11 PM] (5293) scanned(4) 373 files over 1 exec env
+2024-11-16 17:42:11.995 [info] [Info  - 5:42:11 PM] (5293) indexed(4) 373 files over 1 exec env
+2024-11-16 17:42:12.084 [info] [Info  - 5:42:12 PM] (5293) Indexing finished(4).
+2024-11-16 17:43:23.250 [info] [Info  - 5:43:23 PM] (5293) Indexer background runner(5) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (refresh)
+2024-11-16 17:43:23.251 [info] [Info  - 5:43:23 PM] (5293) Indexing(5) started
+2024-11-16 17:43:24.257 [info] [Info  - 5:43:24 PM] (5293) scanned(5) 381 files over 1 exec env
+2024-11-16 17:43:24.998 [info] [Info  - 5:43:24 PM] (5293) Indexing finished(5).
+2024-11-16 17:43:25.737 [info] [Info  - 5:43:25 PM] (5293) [BG(1)] Long operation: checking: file:///teamspace/studios/this_studio/main.py (2778ms)
+2024-11-16 17:43:25.737 [info] [Info  - 5:43:25 PM] (5293) [BG(1)] Long operation: analyzing: file:///teamspace/studios/this_studio/main.py (2944ms)
+2024-11-16 17:43:43.461 [info] [Info  - 5:43:43 PM] (5293) Indexer background runner(6) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (refresh)
+2024-11-16 17:43:43.463 [info] [Info  - 5:43:43 PM] (5293) Indexing(6) started
+2024-11-16 17:43:44.613 [info] [Info  - 5:43:44 PM] (5293) scanned(6) 384 files over 1 exec env
+2024-11-16 17:43:45.479 [info] [Info  - 5:43:45 PM] (5293) [BG(1)] Long operation: checking: file:///teamspace/studios/this_studio/main.py (2369ms)
+2024-11-16 17:43:45.480 [info] [Info  - 5:43:45 PM] (5293) [BG(1)] Long operation: analyzing: file:///teamspace/studios/this_studio/main.py (2455ms)
+2024-11-16 17:43:45.956 [info] [Info  - 5:43:45 PM] (5293) indexed(6) 384 files over 1 exec env
+2024-11-16 17:43:46.051 [info] [Info  - 5:43:46 PM] (5293) Indexing finished(6).
+2024-11-16 18:13:11.011 [info] [Info  - 6:13:11 PM] (5293) Setting environmentName for service "this_studio": "3.10.10 (cloudspace conda)"
+2024-11-16 18:13:11.012 [info] [Info  - 6:13:11 PM] (5293) Setting pythonPath for service "this_studio": "/home/zeus/miniconda3/envs/cloudspace/bin/python"
+2024-11-16 18:13:11.012 [info] [Info  - 6:13:11 PM] (5293) No include entries specified; assuming /teamspace/studios/this_studio
+2024-11-16 18:13:11.012 [info] [Info  - 6:13:11 PM] (5293) Auto-excluding **/node_modules
+2024-11-16 18:13:11.012 [info] [Info  - 6:13:11 PM] (5293) Auto-excluding **/__pycache__
+2024-11-16 18:13:11.012 [info] [Info  - 6:13:11 PM] (5293) Auto-excluding **/.*
+2024-11-16 18:13:11.032 [info] [Info  - 6:13:11 PM] (5293) Assuming Python version 3.10.10.final.0
+2024-11-16 18:13:11.114 [info] [Info  - 6:13:11 PM] (5293) Found 1 source file
+2024-11-16 18:13:11.611 [info] [Info  - 6:13:11 PM] (5293) Indexer background runner(7) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (index)
+2024-11-16 18:13:11.612 [info] [Info  - 6:13:11 PM] (5293) Indexing(7) started
+2024-11-16 18:13:12.177 [info] [Info  - 6:13:12 PM] (5293) scanned(7) 384 files over 1 exec env
+2024-11-16 18:13:12.652 [info] [Info  - 6:13:12 PM] (5293) indexed(7) 384 files over 1 exec env
+2024-11-16 18:13:12.769 [info] [Info  - 6:13:12 PM] (5293) Indexing finished(7).
+2024-11-16 18:13:28.715 [info] [Info  - 6:13:28 PM] (5293) Setting environmentName for service "this_studio": "3.10.10 (cloudspace conda)"
+2024-11-16 18:13:28.716 [info] [Info  - 6:13:28 PM] (5293) Setting pythonPath for service "this_studio": "/home/zeus/miniconda3/envs/cloudspace/bin/python"
+2024-11-16 18:13:28.716 [info] [Info  - 6:13:28 PM] (5293) No include entries specified; assuming /teamspace/studios/this_studio
+2024-11-16 18:13:28.716 [info] [Info  - 6:13:28 PM] (5293) Auto-excluding **/node_modules
+2024-11-16 18:13:28.716 [info] [Info  - 6:13:28 PM] (5293) Auto-excluding **/__pycache__
+2024-11-16 18:13:28.717 [info] [Info  - 6:13:28 PM] (5293) Auto-excluding **/.*
+2024-11-16 18:13:28.737 [info] [Info  - 6:13:28 PM] (5293) Assuming Python version 3.10.10.final.0
+2024-11-16 18:13:28.829 [info] [Info  - 6:13:28 PM] (5293) Found 1 source file
+2024-11-16 18:13:29.434 [info] [Info  - 6:13:29 PM] (5293) Indexer background runner(8) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist (index)
+2024-11-16 18:13:29.435 [info] [Info  - 6:13:29 PM] (5293) Indexing(8) started
+2024-11-16 18:13:30.554 [info] [Info  - 6:13:30 PM] (5293) scanned(8) 384 files over 1 exec env
+2024-11-16 18:13:30.867 [info] [Info  - 6:13:30 PM] (5293) indexed(8) 384 files over 1 exec env
+2024-11-16 18:13:30.965 [info] [Info  - 6:13:30 PM] (5293) Indexing finished(8).
+2024-11-16 18:14:07.638 [info] [Info  - 6:14:07 PM] (5293) Starting service instance "<default>"
+2024-11-16 18:14:07.656 [info] [Info  - 6:14:07 PM] (5293) Setting environmentName for service "<default>": "3.10.10 (cloudspace conda)"
+2024-11-16 18:14:07.656 [info] [Info  - 6:14:07 PM] (5293) Setting pythonPath for service "<default>": "/home/zeus/miniconda3/envs/cloudspace/bin/python"
+2024-11-16 18:14:07.656 [info] [Info  - 6:14:07 PM] (5293) No include entries specified; assuming /<default workspace root>
+2024-11-16 18:14:07.658 [info] [Info  - 6:14:07 PM] (5293) Auto-excluding **/node_modules
+2024-11-16 18:14:07.658 [info] [Info  - 6:14:07 PM] (5293) Auto-excluding **/__pycache__
+2024-11-16 18:14:07.658 [info] [Info  - 6:14:07 PM] (5293) Auto-excluding **/.*
+2024-11-16 18:14:07.674 [info] [Info  - 6:14:07 PM] (5293) Assuming Python version 3.10.10.final.0
+2024-11-16 18:14:07.727 [info] [Error - 6:14:07 PM] (5293) File or directory "/<default workspace root>" does not exist.
+2024-11-16 18:14:07.728 [info] [Info  - 6:14:07 PM] (5293) No source files found.
+2024-11-16 18:14:08.061 [info] [Info  - 6:14:08 PM] (5293) Background analysis(9) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2024.11.2/dist
+2024-11-16 18:14:08.063 [info] [Info  - 6:14:08 PM] (5293) Background analysis(9) started
+2024-11-16 18:32:01.671 [info] [Info  - 6:32:01 PM] (5293) Found 2 source files
